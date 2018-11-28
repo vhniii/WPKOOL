@@ -1,0 +1,184 @@
+.mpp-profile-wrap {
+  margin: 0 auto;
+  padding: 3%;
+  border-radius: 5px;
+  margin-bottom: 1.2em;
+  margin-bottom: 20px; }
+
+.mpp-profile-wrap.round .mpp-profile-image-wrapper {
+  border-radius: 500px;
+  overflow: hidden; }
+
+.mpp-profile-wrap.round .mpp-profile-image-wrapper img {
+  border-radius: 500px; }
+
+.mpp-profile-wrap.right .mpp-profile-image-wrapper {
+  text-align: right;
+  order: 2; }
+
+.mpp-profile-gutenberg-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%; }
+
+.editor-styles-wrapper .mpp-profile-gutenberg-wrap h2,
+.editor-styles-wrapper .mpp-profile-gutenberg-wrap p,
+.editor-styles-wrapper .mpp-profile-gutenberg-wrap div {
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 20px; }
+
+/* Icon Sizes */
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-10 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-10 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-10 div {
+  font-size: 10px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-11 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-11 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-11 div {
+  font-size: 11px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-12 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-12 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-12 div {
+  font-size: 12px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-13 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-13 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-13 div {
+  font-size: 13px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-14 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-14 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-14 div {
+  font-size: 14px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-15 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-15 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-15 div {
+  font-size: 15px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-16 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-16 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-16 div {
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-17 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-17 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-17 div {
+  font-size: 17px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-18 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-18 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-18 div {
+  font-size: 18px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-19 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-19 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-19 div {
+  font-size: 19px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-20 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-20 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-20 div {
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-21 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-21 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-21 div {
+  font-size: 21px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-22 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-22 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-22 div {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-23 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-23 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-23 div {
+  font-size: 23px;
+  margin-bottom: 20px; }
+
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-24 h2,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-24 p,
+.editor-styles-wrapper .mpp-profile-wrap.mt-font-size-24 div {
+  font-size: 24px;
+  margin-bottom: 20px; }
+
+.mpp-profile-image-wrapper {
+  position: relative;
+  z-index: 0;
+  -ms-flex: 1 0 0px;
+  flex: 1 0 0;
+  background: #ddd;
+  position: relative;
+  min-width: 150px;
+  min-height: 150px;
+  width: 100%; }
+
+.mpp-profile-image-wrapper .mpp-profile-image-square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5; }
+
+.mpp-profile-image-wrapper .mpp-profile-image-square button {
+  top: 0;
+  left: 0;
+  opacity: 1 !important;
+  height: 100%; }
+
+.mpp-profile-image-wrapper .mpp-profile-image-square img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 5; }
+
+.mpp-profile-view-posts {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #cf6d38;
+  color: #FFF; }
+
+.mpp-profile-view-posts a,
+.mpp-profile-view-posts a:hover,
+.mpp-profile-view-posts a:visited {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  text-decoration: none; }
+
+.mpp-content-wrap {
+  display: block;
+  padding: 0 15px 0 15px;
+  -ms-flex: 3 0 0px;
+  flex: 3 0 0; }
+
+.mpp-profile-name {
+  font: 1.4em;
+  line-height: 1.2; }
