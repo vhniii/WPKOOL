@@ -1,0 +1,14 @@
+[07-Dec-2018 09:16:42 UTC] PHP Warning:  include(/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/wordpress-seo/vendor/composer/../../admin/class-customizer.php): failed to open stream: No such file or directory in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 444
+[07-Dec-2018 09:16:42 UTC] PHP Warning:  include(): Failed opening '/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/wordpress-seo/vendor/composer/../../admin/class-customizer.php' for inclusion (include_path='/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/archive_tar:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/console_getopt:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/http_request2:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/mail_mime:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/mail_mime-decode:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/net_url2:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/pear-core-minimal/src:/home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/backwpup/vendor/pear/pear_exception:.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 444
+[07-Dec-2018 09:16:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WPSEO_Customizer' not found in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/wordpress-seo/wp-seo-main.php:320
+Stack trace:
+#0 /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(286): wpseo_init('')
+#1 /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(Object(BackWPup), Array)
+#2 /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/rasmuslaaneiktkh/public_html/wordpress/wp-settings.php(327): do_action('plugins_loaded')
+#4 /home/rasmuslaaneiktkh/public_html/wordpress/wp-config.php(92): require_once('/home/rasmuslaa...')
+#5 /home/rasmuslaaneiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/rasmuslaa...')
+#6 /home/rasmuslaaneiktkh/public_html/wordpress/wp-blog-header.php(13): require_once('/home/rasmuslaa...')
+#7 /home/rasmuslaaneiktkh/public_html/wordpress/index.php(17): require('/home/rasmuslaa...')
+#8 {main}
+  thrown in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/wordpress-seo/wp-seo-main.php on line 320
