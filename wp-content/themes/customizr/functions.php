@@ -19,6 +19,7 @@
 * @license   	http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 
+
 if ( !defined( 'CZR_MIN_PHP_VERSION' ) ) define ( 'CZR_MIN_PHP_VERSION', 5.3 );
 if ( !defined( 'CZR_MIN_WP_VERSION' ) ) define ( 'CZR_MIN_WP_VERSION', 4.5 );
 
