@@ -16,3 +16,5 @@ Stack trace:
 [09-Dec-2018 13:19:14 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 2893685 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/Requests/Transport/cURL.php on line 327
 [11-Dec-2018 09:28:57 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 1159168 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/Requests/Transport/cURL.php on line 327
 [13-Dec-2018 11:57:40 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 290816 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/sucuri-scanner/src/fileinfo.lib.php on line 316
+[14-Dec-2018 09:30:14 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 1150976 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/Requests/Transport/cURL.php on line 327
+[16-Dec-2018 14:14:24 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 270336 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/sucuri-scanner/src/fileinfo.lib.php on line 316
