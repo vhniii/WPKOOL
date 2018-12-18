@@ -18,3 +18,5 @@ Stack trace:
 [13-Dec-2018 11:57:40 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 290816 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/sucuri-scanner/src/fileinfo.lib.php on line 316
 [14-Dec-2018 09:30:14 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 1150976 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/Requests/Transport/cURL.php on line 327
 [16-Dec-2018 14:14:24 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 270336 bytes) in /home/rasmuslaaneiktkh/public_html/wordpress/wp-content/plugins/sucuri-scanner/src/fileinfo.lib.php on line 316
+[18-Dec-2018 07:06:50 UTC] PHP Warning:  Parameter 2 to qtranxf_postsFilter() expected to be a reference, value given in /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/class-wp-hook.php on line 286
+[18-Dec-2018 07:06:50 UTC] PHP Warning:  Parameter 2 to qtranxf_postsFilter() expected to be a reference, value given in /home/rasmuslaaneiktkh/public_html/wordpress/wp-includes/class-wp-hook.php on line 286
