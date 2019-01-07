@@ -1,0 +1,103 @@
+.sln-admin-banner {
+	margin-top: rem(20px);
+	padding: rem(20px);
+	padding-bottom: 0;
+	clear: both;
+	background-color: alpha-tones($cl_main, .9);
+	color: $cl_main--white;
+	@include transition(all 500ms);
+	h1, h2, h3, h4 {
+		color: $cl_main--white;
+		margin: 0 0 1.4em 0;
+		font-weight: normal;
+		font-size: 1em;
+		line-height: 1.5;
+	}
+	@media only screen and (max-width: 991px) {
+		position: fixed;
+		bottom: -100vh;
+		left: 0;
+		right: 0;
+		z-index: 999;
+		padding: rem(40px) rem(40px) 0 rem(40px);
+		background-color: $cl_main;
+		&.sln-admin-banner--inview {bottom: 0;}
+		h1, h2 {
+			display: block;
+			font-size: 1.4em;
+			max-width: 414px;
+			margin-right: rem(60px);
+			margin-right: auto;
+			margin-left: auto;
+		}
+		h3, h4 {
+			display: block;
+			font-size: 1.2em;
+			max-width: 414px;
+			margin-right: rem(60px);
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.sln-btn.sln-btn--banner {
+			display: block;
+			max-width: 414px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: rem(36px);
+		}
+	}
+}
+.sln-admin-banner-content {
+
+}
+.sln-banner-bottom {
+	background-color: transparent;
+	width: auto;
+	margin: rem(80px) rem(40px)*-1 rem(60px) rem(40px)*-1;
+	padding: rem(40px);
+	.sln-banner-logowrapper {
+		max-width: 414px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	a {
+		display: inline-block;
+		width: 40%;
+		max-width: 120px;
+		margin: 0;
+		img {
+			width: 100%;
+		}
+	}
+	@media only screen and (min-width: 1024px){
+		margin: rem(20px) rem(20px)*-1 0  rem(20px)*-1;
+		a {width: 60%;};
+	}
+}
+.sln-admin-banner--trigger.sln-btn {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: rem(10px);
+	background-color: $cl_main--green;
+	color: $cl_main--white;
+	@include bp(tablet) {
+		width: auto;
+		display: inline-block;
+		padding: rem(10px) rem(24px);
+		height:  rem(80px);
+		min-width: rem(320px);
+		float: left;
+		margin-top: 0;
+		margin-left: rem(60px);
+	}
+}
+.sln-admin-banner--closewrapper {
+	margin-bottom: rem(60px);
+	text-align: right;
+}
+.sln-admin-banner--close.sln-btn {
+	//position: absolute;
+	//top: rem(40px);
+	//right: rem(20px);
+}

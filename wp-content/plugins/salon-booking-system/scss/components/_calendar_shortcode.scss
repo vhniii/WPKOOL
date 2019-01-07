@@ -1,0 +1,16 @@
+#sln-salon #sln-salon-my-account.mobile-version .sln-salon-booking-calendar.table {
+	tr {
+		margin-bottom: 3em;
+	}
+	td.sln-sc--cal__attendant,
+	td.sln-sc--cal__date {
+		padding-top: 1.4em;
+		padding-bottom: 1.4em;
+		padding-left: 12em;
+		font-weight: bold;
+		span {
+			display: block;
+			padding-bottom: .2em;
+		}
+	}
+}
