@@ -8,13 +8,13 @@
 **/
 
 
-add_filter('wp_footer', 'my_function');
+function rl_add_menu() {
 
-function my_function() {
-
-	echo 'Hello';
+	add_submenu_page("options-general.php", "RL Plugin", "RL Plugin", "manage_options", "rl_plugin", "rl_add_menu");
 
 }
+
+add_action("admin_menu", "rl_add_menu");
 
 
 ?>
