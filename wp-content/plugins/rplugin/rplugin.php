@@ -8,4 +8,9 @@
 */
 
 
+include'(includes/display-functions.php)';
+include'(includes/css/admin.php)';
+include'(includes/scripts.php)';
+
+
 ?>
