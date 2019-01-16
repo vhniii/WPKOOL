@@ -6,3 +6,14 @@
 * Author: Rasmus Laane
 * Author URI: http://rasmuslaane.ikt.khk.ee
 **/
+
+
+
+add_action('wp_head', 'my_func');
+
+
+function my_func() {
+
+	echo 'Hello World';
+
+}
