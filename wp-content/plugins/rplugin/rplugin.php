@@ -1,16 +1,24 @@
 <?php
-/**
-* Plugin Name: RPlugin
-* Description: Sample Plugin
-* Author: Rasmus Laane
-* Plugin URI: http://rasmuslaane.ikt.khk.ee/wordpress5/
-* Version: 1.00
+
+/*
+Plugin name: RPlugin
+Description: Sample Plugin
+Version: 1.0
+Author: Rasmus Laane
+Author URI: rasmuslaane.ikt.khk.ee/wordpress
+
 */
 
 
-include'(includes/display-functions.php)';
-include'(includes/css/admin.php)';
-include'(includes/scripts.php)';
+// include('includes/function.php');
 
+function rl_alert_box(){
+
+echo "<script type='text/javascript'>alert(\"$error\");</script>";
+
+}
+
+
+add_action( 'init', 'rl_alert_box' );
 
 ?>
