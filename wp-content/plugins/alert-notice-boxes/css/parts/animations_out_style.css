@@ -1,0 +1,30 @@
+
+
+.anb-animation-out-id-118 {
+	animation: animation-118 0s ease-in both!important;
+}
+@keyframes animation-118 {
+	0% {
+		transform: scale(1) translate(100px,-100px);
+	}
+	40% {
+		transform: scale(1.2) translate(0px,0px);
+	}
+	100% {
+		transform: scale(0) translate(0px,0px);
+	}
+}
+.anb-animation-out-id-117 {
+	-webkit-animation: animation-117 50s linear both!important;
+	animation: animation-117 50s linear both!important;
+}
+@keyframes animation-117 {
+	0% {
+		transform: translate(100px,-100px);
+		opacity: 1;
+	}
+	100% {
+		transform: translate(0px,0px);
+		opacity: 0;
+	}
+}

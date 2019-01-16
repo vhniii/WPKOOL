@@ -1,0 +1,155 @@
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	width: initial;
+}
+
+ul.tab li {
+	float: left;
+	margin-bottom: 0px;
+}
+
+ul.tab li span {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	cursor: pointer;
+}
+
+.anb-settings ul.tab li span:hover {
+	background-color: #ddd;
+}
+
+.ycat-settings ul.tab li span:focus, .anb-settings .active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.anb_small_input {
+	width: 70px!important;
+}
+
+input.anb_design_post_option_width,
+select.anb_design_post_option_background_size,
+select.anb_design_post_option_background_repeat,
+input.anb_design_post_option_font_size,
+.close_button_position_field {
+    max-width: 100px!important;
+}
+select.anb_design_post_option_width_unit {
+    max-width: 50px;
+    margin: 0px!important;
+}
+#image_anb_design_background_image {
+    margin-bottom: 5px;
+}
+input.anb_design_post_option_padding,
+input.anb_design_post_option_margin,
+input.anb_design_post_option_border_radius {
+    max-width: 50px;
+}
+
+span.thumb.active {
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+}
+
+tr.close-hr {
+    display: block;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	width: initial;
+}
+
+ul.tab li {
+	float: left;
+	margin-bottom: 0px;
+}
+
+ul.tab li span {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	cursor: pointer;
+}
+
+.anb-design-settings ul.tab li span:hover {
+	background-color: #ddd;
+}
+
+.ycat-settings ul.tab li span:focus, .anb-design-settings .active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/*animation*/
+
+select.anb_animation_post_option_side,
+input.anb_animation_post_option_side_value,
+select.anb_animation_post_option_side_unit,
+select.anb_animation_post_option_height,
+input.anb_animation_post_option_height_value,
+select.anb_animation_post_option_height_unit,
+input.anb_animation_post_option_animation_speed,
+select.anb_animation_post_option_animation_timing {
+    max-width: 100px;
+}
+
+/*animation out*/
+
+select.anb_animation_out_post_option_side,
+input.anb_animation_out_post_option_side_value,
+select.anb_animation_out_post_option_side_unit,
+select.anb_animation_out_post_option_height,
+input.anb_animation_out_post_option_height_value,
+select.anb_animation_out_post_option_height_unit,
+input.anb_animation_out_post_option_animation_speed,
+select.anb_animation_out_post_option_animation_timing {
+    max-width: 100px;
+}
+
+/*location*/
+
+input.anb_location_post_option_width,
+select.anb_location_post_option_width_unit,
+select.anb_location_post_option_side,
+input.anb_location_post_option_side_value,
+select.anb_location_post_option_side_unit,
+select.anb_location_post_option_height,
+input.anb_location_post_option_height_value,
+select.anb_location_post_option_height_unit,
+input.anb_location_post_option_z_index {
+    max-width: 100px;
+}

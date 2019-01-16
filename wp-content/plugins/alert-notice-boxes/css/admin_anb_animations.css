@@ -1,0 +1,10 @@
+select.anb_animation_post_option_side,
+input.anb_animation_post_option_side_value,
+select.anb_animation_post_option_side_unit,
+select.anb_animation_post_option_height,
+input.anb_animation_post_option_height_value,
+select.anb_animation_post_option_height_unit,
+input.anb_animation_post_option_animation_speed,
+select.anb_animation_post_option_animation_timing {
+    max-width: 100px;
+}

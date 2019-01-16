@@ -1,0 +1,23 @@
+
+
+#anb-location-id-34 {
+	position: fixed;
+	width: 360px;
+	left: 20px;
+	bottom: 200px;
+	z-index: 99;
+}
+#anb-location-id-30 {
+	position: fixed;
+	width: 350px;
+	left: 20px;
+	bottom: 50px;
+	z-index: 99;
+}
+#anb-location-id-6 {
+	position: fixed;
+	width: 350px;
+	right: 20px;
+	bottom: 50px;
+	z-index: 99;
+}

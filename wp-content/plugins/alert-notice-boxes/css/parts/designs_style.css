@@ -1,0 +1,27 @@
+
+
+.anb-class-5 {
+	color: #fff!important;
+	font-size: 20px!important;
+	background-color: #b70000;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	opacity: 1;
+}
+.close-anb-5 {
+	right: 5px;
+	top: 5px;
+	font-size: 15px!important;
+	line-height: 15px!important;
+	width: 15px!important;
+}
