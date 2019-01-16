@@ -8,10 +8,11 @@
 **/
 
 
-add_action( 'wp_footer', 'my_thank_you_text' );
+add_filter('wp_footer', 'my_function');
 
-function my_thank_you_text () {
-    echo '<p>Thank you for reading!</p>';
+function my_function() {
+
+	echo 'Hello';
 
 }
 
