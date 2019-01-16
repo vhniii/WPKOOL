@@ -8,12 +8,12 @@
 **/
 
 
+add_action( 'wp_footer', 'my_thank_you_text' );
 
-add_action('wp_head', 'my_func');
-
-
-function my_func() {
-
-	echo 'Hello World';
+function my_thank_you_text () {
+    echo '<p>Thank you for reading!</p>';
 
 }
+
+
+?>
